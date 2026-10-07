@@ -1,0 +1,12 @@
+/*
+selector {
+    eigenschap: waarde;
+}
+*/
+h1 {
+  color: darkblue;
+  font-size: 32px;
+}
+p {
+  color: dimgray;
+}
