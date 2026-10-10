@@ -6,5 +6,52 @@
     <title>Oefening 3.6</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body class="p-4">
+    <h1 class="text-3xl font-bold mb-4">Switches vergelijken</h1>
+    <table class="w-full border-collapse text-left">
+      <caption class="text-left text-gray-600 mb-2">
+        Drie switches voor het netwerklab
+      </caption>
+      <thead class="border border-gray-300">
+        <tr class="text-white bg-gray-800">
+          <th rowspan="2">&nbsp;</th>
+          <th scope="col" rowspan="2" class="border border-gray-300 p-2">
+            Basic 8<br />&euro; 35
+          </th>
+          <th scope="col" rowspan="2" class="border border-gray-300 p-2">
+            Office 24<br />&euro; 190
+          </th>
+          <th scope="col" rowspan="2" class="border border-gray-300 p-2">
+            Pro 48<br />&euro; 420
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="border border-gray-300 px-4 py-2" scope="row">Poorten</th>
+          <td class="border border-gray-300 px-4 py-2">8</td>
+          <td class="border border-gray-300 px-4 py-2">24</td>
+          <td class="border border-gray-300 px-4 py-2">48</td>
+        </tr>
+        <tr>
+          <th class="border border-gray-300 px-4 py-2" scope="row">Snelheid</th>
+          <td class="border border-gray-300 px-4 py-2">1 Gbit/s</td>
+          <td class="border border-gray-300 px-4 py-2">1 Gbit/s</td>
+          <td class="border border-gray-300 px-4 py-2">10 Gbit/s</td>
+        </tr>
+        <tr>
+          <th class="border border-gray-300 px-4 py-2" scope="row">PoE</th>
+          <td class="border border-gray-300 px-4 py-2">nee</td>
+          <td class="border border-gray-300 px-4 py-2">ja</td>
+          <td class="border border-gray-300 px-4 py-2">ja</td>
+        </tr>
+        <tr class="bg-gray-50">
+          <th class="border border-gray-300 px-4 py-2" scope="row">VLAN's</th>
+          <td class="border border-gray-300 px-4 py-2">nee</td>
+          <td class="border border-gray-300 px-4 py-2">ja</td>
+          <td class="border border-gray-300 px-4 py-2">ja</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>

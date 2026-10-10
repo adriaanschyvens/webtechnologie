@@ -6,5 +6,77 @@
     <title>Oefening 3.7</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body class="p-6">
+    <h1 class="text-3xl font-bold mb-4">Dataverkeer</h1>
+    <table class="w-full border-collapse border border-gray-300">
+      <caption class="text-left mb-2 text-gray-600">
+        Dataverkeer van het netwerklab (in TB).
+      </caption>
+      <thead class="bg-[#1e2939] text-white">
+        <tr class="border border-collapse border-gray-300">
+          <th
+            class="border border-collapse border-gray-300"
+            rowspan="2"
+            scope="col"
+          >
+            Jaar
+          </th>
+          <th
+            class="border border-collapse border-gray-300"
+            colspan="2"
+            scope="colgroup"
+          >
+            Dataverkeer
+          </th>
+        </tr>
+        <tr>
+          <th class="border border-collapse border-gray-300" scope="col">
+            Inkomend
+          </th>
+          <th class="border border-collapse border-gray-300" scope="col">
+            Uitgaand
+          </th>
+        </tr>
+      </thead>
+      <tbody class="border border-gray-200">
+        <tr class="text-right">
+          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+            2022
+          </td>
+          <td class="border border-gray-300 px-4 py-2">12,4</td>
+          <td class="border border-gray-300 px-4 py-2">8,1</td>
+        </tr>
+        <tr class="bg-gray-50 text-right">
+          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+            2023
+          </td>
+          <td class="border border-gray-300 px-4 py-2">15,9</td>
+          <td class="border border-gray-300 px-4 py-2">10,3</td>
+        </tr>
+        <tr class="text-right">
+          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+            2024
+          </td>
+          <td class="border border-gray-300 px-4 py-2">21,2</td>
+          <td class="border border-gray-300 px-4 py-2">14,8</td>
+        </tr>
+        <tr class="bg-gray-50 text-right">
+          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+            2025
+          </td>
+          <td class="border border-gray-300 px-4 py-2">27,6</td>
+          <td class="border border-gray-300 px-4 py-2">19,5</td>
+        </tr>
+      </tbody>
+      <tfoot class="text-left">
+        <tr class="text-right">
+          <th class="border border-gray-300 px-4 py-2 text-left" scope="row">
+            Totaal
+          </th>
+          <th class="border border-gray-300 px-4 py-2" scope="col">77,1</th>
+          <th class="border border-gray-300 px-4 py-2" scope="col">52,7</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
