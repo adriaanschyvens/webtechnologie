@@ -3,78 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oefening 3.7</title>
+    <title>oefening 3.7</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="p-6">
-    <h1 class="text-3xl font-bold mb-4">Dataverkeer</h1>
-    <table class="w-full border-collapse border border-gray-300">
-      <caption class="text-left mb-2 text-gray-600">
-        Dataverkeer van het netwerklab (in TB).
+    <h1 class="text-2xl font-bold mb-4">Dataverkeer</h1>
+    <table class="w-full border-collapse">
+      <caption class="text-left text-gray-600 mb-2">
+        Dataverkeer van het netwerklab (in TB)
       </caption>
-      <thead class="bg-[#1e2939] text-white">
-        <tr class="border border-collapse border-gray-300">
+      <thead class="bg-gray-800 text-white">
+        <tr>
           <th
-            class="border border-collapse border-gray-300"
             rowspan="2"
             scope="col"
+            class="border border-gray-300 px-4 py-2 textcenter"
           >
             Jaar
           </th>
           <th
-            class="border border-collapse border-gray-300"
             colspan="2"
             scope="colgroup"
+            class="border border-gray-300 px-4 py-2 text-center"
           >
             Dataverkeer
           </th>
         </tr>
         <tr>
-          <th class="border border-collapse border-gray-300" scope="col">
+          <th scope="col" class="border border-gray-300 px-4 py-2 textcenter">
             Inkomend
           </th>
-          <th class="border border-collapse border-gray-300" scope="col">
+          <th scope="col" class="border border-gray-300 px-4 py-2 textcenter">
             Uitgaand
           </th>
         </tr>
       </thead>
-      <tbody class="border border-gray-200">
-        <tr class="text-right">
-          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+      <tbody>
+        <tr>
+          <th scope="row" class="border border-gray-300 px-4 py-2 text-left">
             2022
-          </td>
-          <td class="border border-gray-300 px-4 py-2">12,4</td>
-          <td class="border border-gray-300 px-4 py-2">8,1</td>
+          </th>
+          <td class="border border-gray-300 px-4 py-2 text-right">12,4</td>
+          <td class="border border-gray-300 px-4 py-2 text-right">8,1</td>
         </tr>
-        <tr class="bg-gray-50 text-right">
-          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+        <tr class="bg-gray-50">
+          <th scope="row" class="border border-gray-300 px-4 py-2 text-left">
             2023
-          </td>
-          <td class="border border-gray-300 px-4 py-2">15,9</td>
-          <td class="border border-gray-300 px-4 py-2">10,3</td>
+          </th>
+          <td class="border border-gray-300 px-4 py-2 text-right">15,9</td>
+          <td class="border border-gray-300 px-4 py-2 text-right">10,3</td>
         </tr>
-        <tr class="text-right">
-          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+        <tr>
+          <th scope="row" class="border border-gray-300 px-4 py-2 text-left">
             2024
-          </td>
-          <td class="border border-gray-300 px-4 py-2">21,2</td>
-          <td class="border border-gray-300 px-4 py-2">14,8</td>
+          </th>
+          <td class="border border-gray-300 px-4 py-2 text-right">21,2</td>
+          <td class="border border-gray-300 px-4 py-2 text-right">14,8</td>
         </tr>
-        <tr class="bg-gray-50 text-right">
-          <td class="border border-gray-300 px-4 py-2 text-left font-bold">
+        <tr class="bg-gray-50">
+          <th scope="row" class="border border-gray-300 px-4 py-2 text-left">
             2025
-          </td>
-          <td class="border border-gray-300 px-4 py-2">27,6</td>
-          <td class="border border-gray-300 px-4 py-2">19,5</td>
+          </th>
+          <td class="border border-gray-300 px-4 py-2 text-right">27,6</td>
+          <td class="border border-gray-300 px-4 py-2 text-right">19,5</td>
         </tr>
       </tbody>
-      <tfoot class="text-left">
-        <tr class="text-right">
-          <th class="border border-gray-300 px-4 py-2 text-left" scope="row">
+      <tfoot>
+        <tr class="font-bold">
+          <th scope="row" class="border border-gray-300 px-4 py-2 textleft">
             Totaal
           </th>
-          <th class="border border-gray-300 px-4 py-2" scope="col">77,1</th>
-          <th class="border border-gray-300 px-4 py-2" scope="col">52,7</th>
+          <td class="border border-gray-300 px-4 py-2 text-right">77,1</td>
+          <td class="border border-gray-300 px-4 py-2 text-right">52,7</td>
         </tr>
       </tfoot>
     </table>
