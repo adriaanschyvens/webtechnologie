@@ -1,68 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl-BE">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oefening 4.2</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Oefening 1</title>
-  </head>
-  <body>
-    <div class="max-w-6xl mx-auto px-4 text-gray-900">
-      <header class="py-6 mb-8 border-b border-gray-200">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main class="mb-8">
-        <h1 class="text-3xl font-bold mb-4">Over mij</h1>
-        <p class="max-w-2xl mb-8">
-          Ik studeer systeem- en netwerkbeheer aan AP Hogeschool. In mijn vrije
-          tijd sleutel ik aan mijn thuisnetwerk en automatiseer ik wat ik twee
-          keer moet doen.
-        </p>
-        <section>
-          <h2 class="text-xl font-bold mb-4">Mijn projecten</h2>
-          <article class="bg-white border border-gray-200 rounded-lg p-4 mb-4">
-            <h3 class="font-semibold">Thuisnetwerk met VLAN's</h3>
-            <p class="text-sm text-gray-600">
-              Een netwerk opgesplitst in gescheiden segmenten voor werk en
-              gasten.
-            </p>
-          </article>
-          <article class="bg-white border border-gray-200 rounded-lg p-4 mb-4">
-            <h3 class="font-semibold">Backupserver op Linux</h3>
-            <p class="text-sm text-gray-600">
-              Elke nacht een backup van drie toestellen naar een schijf in de
-              meterkast.
-            </p>
-          </article>
-          <article class="bg-white border border-gray-200 rounded-lg p-4 mb-4">
-            <h3 class="font-semibold">Wifi voor de studentenkamer</h3>
-            <p class="text-sm text-gray-600">
-              Een extra toegangspunt dat het signaal tot op zolder brengt.
-            </p>
-          </article>
-          <article class="bg-white border border-gray-200 rounded-lg p-4 mb-4">
-            <h3 class="font-semibold">Monitoring met grafieken</h3>
-            <p class="text-sm text-gray-600">
-              Grafieken van het netwerkverkeer op één scherm.
-            </p>
-          </article>
-        </section>
-      </main>
-      <aside class="bg-gray-100 rounded-lg p-4 mb-8">
-        <h2 class="font-semibold mb-2">Momenteel aan het leren</h2>
-        <p class="text-sm text-gray-600">HTML, Tailwind en werken met API's.</p>
-      </aside>
-      <footer class="py-6 border-t border-gray-200 text-sm text-gray-600">
-        <p>&copy; 2026 Lotte Peeters</p>
-        <p>lotte.peeters@student.ap.be</p>
-      </footer>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+
+        <header class="flex items-center justify-between py-4 border-b border-gray-200">
+            <p class="text-xl font-bold">Lotte Peeters</p>
+            <nav>
+                <ul class="flex gap-6">
+                    <li><a href="index.html" class="text-gray-600">Home</a></li>
+                    <li><a href="portfolio.html" class="text-gray-600">Portfolio</a></li>
+                    <li><a href="project.html" class="text-gray-600">Project</a></li>
+                    <li><a href="contact.html" class="text-gray-600">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="py-8">
+            <h1 class="text-3xl font-bold mb-4">Over mij</h1>
+            <p class="max-w-2xl leading-relaxed mb-4">Ik studeer systeem- en netwerkbeheer aan AP Hogeschool. In mijn vrije tijd sleutel ik aan mijn thuisnetwerk en automatiseer ik wat ik twee keer moet doen.</p>
+
+            <ul class="flex flex-wrap gap-2 mb-8">
+                <li class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">HTML</li>
+                <li class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Tailwind CSS</li>
+                <li class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Linux</li>
+                <li class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Netwerken</li>
+            </ul>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4">Mijn projecten</h2>
+                <article class="bg-white border border-gray-200 p-4 rounded-lg mb-4">
+                    <h3 class="font-bold mb-1">Thuisnetwerk met VLAN's</h3>
+                    <p class="text-sm text-gray-600">Een netwerk opgesplitst in gescheiden segmenten voor werk en gasten.</p>
+                </article>
+                <article class="bg-white border border-gray-200 p-4 rounded-lg mb-4">
+                    <h3 class="font-bold mb-1">Backupserver op Linux</h3>
+                    <p class="text-sm text-gray-600">Elke nacht een backup van drie toestellen naar een schijf in de meterkast.</p>
+                </article>
+                <article class="bg-white border border-gray-200 p-4 rounded-lg mb-4">
+                    <h3 class="font-bold mb-1">Wifi voor de studentenkamer</h3>
+                    <p class="text-sm text-gray-600">Een extra toegangspunt dat het signaal tot op zolder brengt.</p>
+                </article>
+                <article class="bg-white border border-gray-200 p-4 rounded-lg">
+                    <h3 class="font-bold mb-1">Monitoring met grafieken</h3>
+                    <p class="text-sm text-gray-600">Grafieken van het netwerkverkeer op één scherm.</p>
+                </article>
+            </section>
+        </main>
+
+        <aside class="bg-gray-100 p-4 rounded-lg mb-8">
+            <h2 class="font-bold mb-2">Momenteel aan het leren</h2>
+            <p class="text-sm text-gray-600">HTML, Tailwind en werken met API's.</p>
+        </aside>
+
+        <footer class="flex items-center justify-between border-t border-gray-200 py-4 text-sm text-gray-600">
+            <p>&copy; 2026 Lotte Peeters</p>
+            <p>lotte.peeters@student.ap.be</p>
+        </footer>
+
     </div>
-  </body>
+</body>
 </html>
